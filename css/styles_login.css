@@ -1,0 +1,194 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.container {
+    background-color: #111111;
+    width: 100%;
+    height: max-content;
+}
+
+
+
+.container_header {
+    color: rgb(207, 207, 207);
+    font-size: 27px;
+    border-bottom: #444;
+    background-color: #111111ce;
+    top: 0;  
+    width: 100%;
+}
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*start logo*/
+.col_1 {
+    width: 60px;
+    text-align: center;
+    margin: auto;
+}
+.col_2 {
+    width: 100px;
+    text-align: center;
+    margin-top: auto;
+    padding: 1rem 0;
+}
+
+.logo_text {
+    font-size: 17px;
+}
+
+.col_img {
+    width: 100%;
+}
+/*end logo*/
+
+.col_3 {
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+/*seach start*/
+
+.search {
+    width: 100%;
+    height: 32px;
+    margin: 0 auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius:  3px;
+    border: 1px solid #68B7E8;
+}
+    
+.header input {
+    padding: 8px 5px;
+    float: left;
+    color: rgb(128, 128, 128);
+    border: 0;
+    background: transparent;
+    border-radius: 3px 0 0 3px;
+    font-size: 15px;
+}
+
+.header input:focus {
+    outline: 0;
+    background:transparent;
+}
+        
+/* seach end*/    
+
+
+.col_4 {
+    width: 200px;
+    text-align: center;
+    margin: auto 0;
+}
+
+
+.col_4 a {
+    color: #141010;
+    padding: 0 1rem 0 1rem;
+
+}
+
+.col_4 img {
+    width: 30px;
+}
+
+
+hr {
+    width: 100%;
+    margin: auto;
+    background-color:#68B7E8;
+    height: 4px;
+    border: none;
+    text-align: center;
+}
+
+
+.body {
+
+    height: 100%;
+    background-image: url('/img/bgt/bg_3.png');
+    background-position: center;
+    background-size: 1500px;
+}
+
+/** login start**/
+
+.log form {
+    background-color: rgba(97, 97, 97, 0.068);
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    color: rgb(173, 173, 173);
+    border-radius: 5px;
+    border-top:  2px solid #444;
+    box-shadow: 3px 3px 10px 3px #444;
+    margin: auto;
+}
+
+.log input[type="text"],
+.log input[type="email"]{
+    padding: 8px 5px;
+    color: rgb(128, 128, 128);
+    background: transparent;
+    width: 70%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid rgb(65, 65, 65);
+    font-size: 15px;
+}
+
+.log button {
+    height: 40px;
+    min-width: 50%;
+    background: none;
+    border:none;
+    border: 1px solid #666;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.log button:hover {
+    transition-duration: 0.3s;
+    background-color: rgb(104, 104, 104); /*цвет при наведении*/
+    box-shadow: 0 0 6px 0 rgb(63, 63, 63);
+    color: rgb(209, 209, 209);
+}
+
+.log {
+    padding: 5rem 0;
+}
+
+.login {
+    color: rgb(173, 173, 173);
+    font-size: 40px;
+    text-align: center;    
+}
+/** login end**/
+
+
+/**registr start**/
+
+.registr_btn {
+    margin: 0 0 1em;
+}
+/**registr end**/
+
+.a {
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+    font-size: 20px;
+}
