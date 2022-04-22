@@ -2,7 +2,7 @@
 @font-face {
     font-display: swap;
     font-family: 'Lite'; /*наклонный непонятный, для лого*/
-    src: url('/fonts/ColinasPersonalUseRegular-2OBe3.ttf') format('truetype');
+    src: url('./fonts/ColinasPersonalUseRegular-2OBe3.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 
@@ -10,7 +10,7 @@
 @font-face {
     font-display: swap;
     font-family: 'Lato1';/*чутка прописной, немного закрученный, больше для лого или заголовка*/
-    src: url('/fonts/BadScript-Regular(1).ttf') format('truetype'); 
+    src: url('./fonts/BadScript-Regular(1).ttf') format('truetype'); 
     font-weight: 300;
     font-style: normal;
 
@@ -18,7 +18,7 @@
 @font-face {
     font-display: swap;
     font-family: 'Guazhiru';/*маленький твёрдый недописанный, лого заголовки*/
-    src: url('/fonts/Guazhiru-3gPz.ttf') format('truetype');
+    src: url('./fonts/Guazhiru-3gPz.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 
@@ -26,7 +26,7 @@
 @font-face {
     font-display: swap;
     font-family: 'GuazhiruItalic';/*такойже как сверху, но ток наклонный, хз почему*/
-    src: url('/fonts/GuazhiruItalic-xVaR.ttf') format('truetype');
+    src: url('./fonts/GuazhiruItalic-xVaR.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 
@@ -34,7 +34,7 @@
 @font-face {
     font-display: swap;
     font-family: 'GuazhiruItalicOutlined';/*такойже но пустой внутри*/
-    src: url('/fonts/GuazhiruItalicOutlined-pVKZ.ttf') format('truetype');
+    src: url('./fonts/GuazhiruItalicOutlined-pVKZ.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 
@@ -43,7 +43,7 @@
 @font-face {
     font-display: swap;
     font-family: 'SolustionDemo';/*долгожданный лого*/
-    src: url('/fonts/SolustionDemo-1Gz24.ttf') format('truetype');
+    src: url('../fonts/SolustionDemo-1Gz24.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 
@@ -51,7 +51,7 @@
 @font-face {
     font-display: swap;
     font-family: 'Madrigal';/*долгожданный лого*/
-    src: url('/fonts/Madrigal-mLJ92.ttf') format('truetype');
+    src: url('./fonts/Madrigal-mLJ92.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 
