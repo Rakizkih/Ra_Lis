@@ -162,7 +162,7 @@ hr {
 /*reg start*/
 
 .reg {
-    background-image: url('/img/bgt/book_2.jpg');
+    background-image: url('../img/bgt/book_2.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
