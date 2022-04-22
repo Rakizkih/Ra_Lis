@@ -1,22 +1,23 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
     margin: 0;
+    padding: 0;
 }
 
+body {
+    font-family: comic sans ms, 'Courier New', Courier, monospace;
+}
 .container {
-    background-color: #111111;
     width: 100%;
     height: max-content;
+    background-color: #111111;
+    color: rgb(207, 207, 207);
 }
 
 
 
 .container_header {
-    color: rgb(207, 207, 207);
-    font-size: 27px;
     border-bottom: #444;
-    background-color: #111111ce;
-    top: 0;  
+    background-color: #111111; 
     width: 100%;
 }
 
@@ -28,78 +29,35 @@
 
 /*start logo*/
 .col_1 {
-    width: 60px;
+    text-align: left;
+    margin: auto 2rem;
+}
+.col_2 {
     text-align: center;
     margin: auto;
 }
-.col_2 {
-    width: 100px;
-    text-align: center;
-    margin-top: auto;
-    padding: 1rem 0;
+
+.logo_text_0 {
+    width: 65%;
+    text-align: left;
+    font-family: 'SolustionDemo';
+    font-size: 50px;
+    margin: auto 2rem;
 }
 
 .logo_text {
-    font-size: 17px;
+    font-size: 35px;
+    font-family: Madrigal;
+}
+
+.logo_text_1 {
+    font-size: 25px;
+    font-family: Madrigal;
+    margin: auto 2rem auto 0;
 }
 
 .col_img {
-    width: 100%;
-}
-/*end logo*/
-
-.col_3 {
-    width: 50%;
-    font-size: 20px;
-    text-align: center;
-    margin: auto;
-}
-
-/*seach start*/
-
-.search {
-    width: 100%;
-    height: 32px;
-    margin: 0 auto;
-    background: #444;
-    background: rgba(0,0,0,.2);
-    border-radius:  3px;
-    border: 1px solid #68B7E8;
-}
-    
-.header input {
-    padding: 8px 5px;
-    float: left;
-    color: rgb(128, 128, 128);
-    border: 0;
-    background: transparent;
-    border-radius: 3px 0 0 3px;
-    font-size: 15px;
-}
-
-.header input:focus {
-    outline: 0;
-    background:transparent;
-}
-        
-/* seach end*/    
-
-
-.col_4 {
-    width: 200px;
-    text-align: center;
-    margin: auto 0;
-}
-
-
-.col_4 a {
-    color: #141010;
-    padding: 0 1rem 0 1rem;
-
-}
-
-.col_4 img {
-    width: 30px;
+    width: 60px;
 }
 
 
@@ -114,11 +72,10 @@ hr {
 
 
 .body {
-
-    height: 100%;
-    background-image: url('/img/bgt/bg_3.png');
+    min-height: 750px;
+    background-image: url('/img/bgt/bg_2.png');
     background-position: center;
-    background-size: 1500px;
+    background-size: 1650px;
 }
 
 /** login start**/
