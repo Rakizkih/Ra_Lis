@@ -65,7 +65,7 @@ hr {
 
 .logo_name{
     height: 390px;
-    background-image: url('../img/bgt/name_7.png');
+    background-image: url('img/bgt/name_7.png');
     background-position: center;
     background-size: 1700px;
 }
@@ -144,7 +144,7 @@ hr {
 /*reg start*/
 
 .reg {
-    background-image: url('/img/bgt/book_2.jpg');
+    background-image: url('img/bgt/book_2.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
