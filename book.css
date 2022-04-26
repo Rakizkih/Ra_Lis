@@ -11,7 +11,7 @@
 
 body {
     font-family: 'comic sans ms', 'Courier New', Courier, monospace;
-    background-image: url('../img/bgt/bg_2.png');
+    background-image: url('img/bgt/bg_2.png');
     background-position: center;
     background-size: 1700px;
 }
