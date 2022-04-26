@@ -126,7 +126,7 @@ hr {
 .about {
     min-height: 700px;
     height: 100%;
-    background-image: url('../img/bgt/bg_2.png');
+    background-image: url('img/bgt/bg_2.png');
     background-position: center;
     background-size: 1700px;
 }
