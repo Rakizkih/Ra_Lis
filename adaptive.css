@@ -1,0 +1,177 @@
+
+@media only screen and (max-width: 1500px) {
+    .gallery {
+        grid-template-rows: repeat(4, 17vw);/*ряды, 5 - это высота ряда*/
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .gallery {
+        grid-template-rows: repeat(4, 20vw);/*ряды, 5 - это высота ряда*/
+    }
+    .logo_text_0 {
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .logo_text_0 {
+        width: 50%;
+    }
+    .gallery {
+        grid-template-rows: repeat(4, 25vw);/*ряды, 5 - это высота ряда*/
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .logo_text_0 {
+        width: 45%;
+    }
+    .gallery {
+        width: 300px;
+        grid-template-columns: auto;/*колонки*/
+        grid-template-rows: repeat(8, 30vw);/*ряды, 5 - это высота ряда*/
+        grid-gap: 20px;/*размер зазора между рядами и колонками в сетке*/ 
+    }
+    .gallery_img {/*задаем размер фонового изображения таким образом, чтобы покрывать элемент. Мы делаем это, чтобы изображение могло заполнять высоту и ширину своего блока (элемента сетки), сохраняя его соотношение сторон*/
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block; 
+    }
+    .gallery_item_2 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .gallery_item_1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    .gallery_item_3 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    .gallery_item_4 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }    
+}
+
+@media only screen and (max-width: 800px) {
+    .logo_text_0 {
+        width: 40%;
+    }
+    .logo_name{
+        background-size: 1600px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .logo_text_0 {
+        width: 35%;
+    }
+
+    .logo_name{
+        height: 200px;
+        background-size: 1100px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .logo_text_0 {
+        width: 25%;
+        font-size: 35px;
+    }
+    .logo_name{
+        background-position-y: -10px ;
+    }
+    .logo_text {
+        font-size: 25px;
+    }
+    
+    .logo_text_1 {
+        font-size: 20px;
+    }
+    .reg .one {
+        font-size: 29px;
+    }
+    .reg .two {
+        font-size: 18px;
+    }
+    .menu {
+        font-size: 17px;}
+}
+
+@media only screen and (max-width: 500px) {
+    .logo_text_0 {
+        width: max-content;
+        font-size: 32px;
+    }
+    .logo_text {
+        font-size: 22px;
+    }
+    
+    .logo_text_1 {
+        font-size: 18px;
+    }
+    .logo_name {
+        background-size: 800px;
+    }
+    .reg .one {
+        font-size: 25px;
+    }
+    .reg .two  {
+        font-size: 15px;
+    }
+    .menu {
+        font-size: 18px;
+    }
+    .list_menu {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo_text_0 {
+        width: max-content;
+        font-size: 25px;
+        margin: auto 0.7rem;
+    }
+    .logo_text {
+        font-size: 20px;
+    }
+    
+    .logo_text_1 {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .logo_text_0 {
+        width: max-content;
+        font-size: 23px;
+        margin: auto 0.25rem;
+    }
+    .logo_text {
+        font-size: 19px;
+    }
+    
+    .logo_text_1 {
+        font-size: 14px;
+    }
+    .col_1 {
+        margin: auto 1rem;
+    }
+    .btn {
+        font-size: 20px
+    }
+}

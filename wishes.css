@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: comic sans ms, 'Courier New', Courier, monospace;
+
+}
+
+.container {
+    width: 100%;
+    height: max-content;
+    background-color: #111111;
+    color: rgb(207, 207, 207);
+}
+
+
+
+
+
+.container_header {
+    border-bottom: #444;
+    background-color: #111111; 
+    width: 100%;
+}
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*start logo*/
+.col_1 {
+    text-align: left;
+    margin: auto 2rem;
+}
+.col_2 {
+    text-align: center;
+    margin: auto;
+}
+
+.logo_text_0 {
+    width: 65%;
+    text-align: left;
+    font-family: SolustionDemo;
+    font-size: 50px;
+    margin: auto 2rem;
+}
+
+.logo_text {
+    font-size: 35px;
+    font-family: Madrigal;
+}
+
+.logo_text_1 {
+    font-size: 25px;
+    font-family: Madrigal;
+    margin: auto 2rem auto 0;
+}
+
+.col_img {
+    width: 60px;
+}
+
+/*end logo*/   
+
+
+
+hr {
+    width: 100%;
+    margin: auto;
+    background-color:#68B7E8;
+    height: 4px;
+    border: none;
+    text-align: center;
+}
+
+
+/*section menu start*/
+
+/*menu start*/
+
+.container_menu {
+    background-image: url("https://avatars.mds.yandex.net/get-zen_doc/1712062/pub_6022e8df064ec93518296a57_6022effad6ee57324977e835/scale_1200");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;        
+}
+
+.list_menu {
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+    color:rgb(207, 207, 207);
+    background-color: #0a0f13fa;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 60px;
+    justify-content: space-around;
+    padding: 0.8rem 0;
+}
+
+.list_menu a {
+    color:rgb(207, 207, 207);
+    text-decoration: none;
+    margin: auto 1rem;
+    padding: auto;
+    box-shadow: 0px 0px 5px 0px rgb(68, 68, 68);
+    border: 2.3px solid #444;
+    border-radius: 15px;
+    width: 200px;
+}
+
+/*menu end*/
+
+/*content start*/
+
+.content {
+    min-height: 700px;
+    height: 100%;
+    background-image: url('../img/bgt/bg_2.png');
+    background-position: center;
+    background-size: 1700px;
+    padding: 0 0 3rem;
+
+}
+
+.content h1 {
+    padding: 3rem 0 0;
+    text-align: center;
+    color: rgb(164, 164, 164);
+    font-size: 40px;
+    text-shadow: 1px 1px rgb(232, 232, 232);
+    text-shadow: 1px 7px 5px rgb(86, 86, 86);
+    text-transform: uppercase;
+    font-family: 'Lato1';
+}
+
+.content hr {
+    width: 40%;
+    margin: auto;
+    background-color: rgb(240, 240, 240);
+    height: 2px;
+    border: none;
+    text-align: center;
+}
+
+.wishes_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.wishes {
+    color:rgb(207, 207, 207);
+    font-size: 18px;
+    font-style: italic;
+    max-width: 600px;
+    padding: 3rem 0 0;
+    text-align: center;
+}
+
+/*foot start*/
+.foot {
+    background-color: rgb(5, 5, 5);
+    height: max-content;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(177, 177, 177);
+    padding:1rem 0;
+}
+
+.two {
+    margin: 0.5rem 0 0;
+}
+/*foot end*/
